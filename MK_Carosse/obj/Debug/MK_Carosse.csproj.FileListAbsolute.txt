@@ -1,0 +1,10 @@
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\bin\Debug\MK_Carosse.exe.config
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\bin\Debug\MK_Carosse.exe
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\bin\Debug\MK_Carosse.pdb
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.csproj.AssemblyReference.cache
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.FigAcceuil.resources
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.Properties.Resources.resources
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.csproj.GenerateResource.cache
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.csproj.CoreCompileInputs.cache
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.exe
+C:\Users\Kate\Desktop\Kate General\Bloc2\POO\Visual_studio2019\MK_Carosse\MK_Carosse\obj\Debug\MK_Carosse.pdb

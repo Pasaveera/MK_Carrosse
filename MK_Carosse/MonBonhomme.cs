@@ -24,7 +24,7 @@ namespace MK_Carosse
 			this.jambeD = new MonRectangle(hebergeur, xsg+lg/2, ysg+ht,lg/2, ht+ht/2);
 			this.jambeG = new MonRectangle(hebergeur, xsg, ht+ysg,lg/2, ht+ht/2);
 
-			this.brasD.Pot = Color.Yellow;
+			this.brasD.Pot = Color.Pink;
 			this.brasG.Pot = Color.Blue;
 			this.jambeD.Pot = Color.Violet;
 			this.jambeG.Pot = Color.Green;

@@ -50,6 +50,10 @@ namespace MK_Carosse
             this.btnDeplacerMan = new System.Windows.Forms.Button();
             this.btnCreationWomen = new System.Windows.Forms.Button();
             this.btnDeplacerWomen = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.TV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +70,7 @@ namespace MK_Carosse
             // 
             // btnDeplacer
             // 
-            this.btnDeplacer.Location = new System.Drawing.Point(602, 306);
+            this.btnDeplacer.Location = new System.Drawing.Point(404, 306);
             this.btnDeplacer.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeplacer.Name = "btnDeplacer";
             this.btnDeplacer.Size = new System.Drawing.Size(164, 31);
@@ -192,7 +196,7 @@ namespace MK_Carosse
             // 
             // btnDeplacerCarrosse
             // 
-            this.btnDeplacerCarrosse.Location = new System.Drawing.Point(602, 354);
+            this.btnDeplacerCarrosse.Location = new System.Drawing.Point(213, 453);
             this.btnDeplacerCarrosse.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeplacerCarrosse.Name = "btnDeplacerCarrosse";
             this.btnDeplacerCarrosse.Size = new System.Drawing.Size(164, 31);
@@ -218,7 +222,7 @@ namespace MK_Carosse
             // 
             // btnCreationMan
             // 
-            this.btnCreationMan.Location = new System.Drawing.Point(213, 453);
+            this.btnCreationMan.Location = new System.Drawing.Point(22, 506);
             this.btnCreationMan.Margin = new System.Windows.Forms.Padding(2);
             this.btnCreationMan.Name = "btnCreationMan";
             this.btnCreationMan.Size = new System.Drawing.Size(166, 32);
@@ -229,7 +233,7 @@ namespace MK_Carosse
             // 
             // btnDeplacerMan
             // 
-            this.btnDeplacerMan.Location = new System.Drawing.Point(602, 404);
+            this.btnDeplacerMan.Location = new System.Drawing.Point(602, 506);
             this.btnDeplacerMan.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeplacerMan.Name = "btnDeplacerMan";
             this.btnDeplacerMan.Size = new System.Drawing.Size(166, 32);
@@ -240,7 +244,7 @@ namespace MK_Carosse
             // 
             // btnCreationWomen
             // 
-            this.btnCreationWomen.Location = new System.Drawing.Point(407, 302);
+            this.btnCreationWomen.Location = new System.Drawing.Point(213, 506);
             this.btnCreationWomen.Margin = new System.Windows.Forms.Padding(2);
             this.btnCreationWomen.Name = "btnCreationWomen";
             this.btnCreationWomen.Size = new System.Drawing.Size(166, 32);
@@ -251,7 +255,7 @@ namespace MK_Carosse
             // 
             // btnDeplacerWomen
             // 
-            this.btnDeplacerWomen.Location = new System.Drawing.Point(602, 452);
+            this.btnDeplacerWomen.Location = new System.Drawing.Point(402, 506);
             this.btnDeplacerWomen.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeplacerWomen.Name = "btnDeplacerWomen";
             this.btnDeplacerWomen.Size = new System.Drawing.Size(166, 32);
@@ -260,11 +264,51 @@ namespace MK_Carosse
             this.btnDeplacerWomen.UseVisualStyleBackColor = true;
             this.btnDeplacerWomen.Click += new System.EventHandler(this.btnDeplacerWomen_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(22, 556);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 32);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Creation MAN";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(214, 556);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(166, 32);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Creation MAN";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(401, 566);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Nombre X";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(459, 563);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(56, 20);
+            this.textBox1.TabIndex = 21;
+            // 
             // FigAcceuil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(992, 521);
+            this.ClientSize = new System.Drawing.Size(992, 609);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDeplacerWomen);
             this.Controls.Add(this.btnCreationWomen);
             this.Controls.Add(this.btnDeplacerMan);
@@ -289,6 +333,7 @@ namespace MK_Carosse
             this.Load += new System.EventHandler(this.FigAcceuil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TV)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -314,6 +359,10 @@ namespace MK_Carosse
         private System.Windows.Forms.Button btnDeplacerMan;
         private System.Windows.Forms.Button btnCreationWomen;
         private System.Windows.Forms.Button btnDeplacerWomen;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
